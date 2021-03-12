@@ -1,13 +1,12 @@
 
 public class StringProblem {
 	public String repeatFront(String str,int n) {
-		StringBuffer sb = new StringBuffer(str);
 		String s = "";
 		while(n!=0) {
-		for(int i=0;i<n;i++) {
-			s += str.charAt(i);
-		}
-		n--;
+			for(int i=0;i<n;i++) {
+				s += str.charAt(i);
+			}
+			n--;
 		}
 		return s;
 	}
