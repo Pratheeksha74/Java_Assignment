@@ -5,7 +5,7 @@ import java.util.Scanner;
 //Create a method which accepts an array of integer elements 
 //and return the second smallest element in the array
 
-public class Lab_3_1 {
+public class Lab_2_1 {
 	static int getSecondSmallest(int[] array) {
 		if(array.length < 2) {
 			System.out.println("There is no second smallest element");

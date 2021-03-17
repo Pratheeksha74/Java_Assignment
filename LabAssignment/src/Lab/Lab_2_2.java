@@ -8,7 +8,7 @@ import java.util.Scanner;
  *  half should be completely in lower case. Return the resulting array.
  */
 
-public class Lab_3_2 {
+public class Lab_2_2 {
 	static String[] sortStrings(String[] s) {
 		//Arrays.sort(s);
 		for(int i=0;i<s.length-1;i++) {

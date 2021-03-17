@@ -7,7 +7,7 @@ import java.util.Scanner;
  * array in sorted order
  */
 
-public class Lab_3_3 {
+public class Lab_2_3 {
 	static void reverseFunction(int[] a) {
 		int num, rev = 0;
 		for(int i=0;i<a.length;i++) {

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Return the resulting array in descending order
  */
 
-public class Lab_3_4 {
+public class Lab_2_4 {
 	static int modifyArray(int[] a) {
 		int j = 0,n = a.length;
 		
